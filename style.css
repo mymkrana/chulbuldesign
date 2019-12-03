@@ -245,6 +245,14 @@ section#about {
 .col-sm-t {
   width: 20%;
   text-align-last: center;
+  transition: 0.5s;
+}
+.col-sm-t:hover {
+  background-color: #e6d8d77a;
+  padding: 5px;
+  -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
 }
 
 h5.servicescard {
@@ -253,6 +261,7 @@ h5.servicescard {
   letter-spacing: -0.02em;
   font-weight: 500;
 }
+
 
 
 
