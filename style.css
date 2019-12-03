@@ -77,7 +77,7 @@ p.hometext2 {
     position: relative;
    
     background-size: cover;
-    padding: 126px 0 60px 0;
+    padding: 126px 0 120px 0;
   }
   
   .homeimg {
@@ -238,13 +238,14 @@ a.btnz {
   color: #49499a;
   width: 50%;
 }
+
 section#about {
   padding: 0;
 }
 
 .col-sm-t {
-  width: 20%;
-  text-align-last: center;
+  width: 228px;
+  text-align: center;
   transition: 0.5s;
 }
 .col-sm-t:hover {
@@ -261,7 +262,6 @@ h5.servicescard {
   letter-spacing: -0.02em;
   font-weight: 500;
 }
-
 
 
 
