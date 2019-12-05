@@ -356,3 +356,22 @@ h5.servicescard {
 /*--------------------------------------------------------------
                       # Section Social meda End
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+                      # Section Tecnology meda End
+--------------------------------------------------------------*/
+section#tech {
+  padding-top: 68px;
+}
+
+.col-sm-rt{
+  width: 16.6666667%;
+  text-align: center;
+  transition: 0.5s;
+  padding-bottom: 24px;
+}
+
+img.techimg  {
+  width: 50px;
+}
