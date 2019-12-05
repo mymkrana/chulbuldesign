@@ -249,12 +249,12 @@ section#about {
 }
 
 .col-sm-t {
-  width: 228px;
+  width: 20%;
   text-align: center;
   transition: 0.5s;
 }
 .col-sm-tt {
-  width: 228px;
+  width: 20%;
   text-align: center;
   transition: 0.5s;
 }
@@ -285,10 +285,10 @@ h5.servicescard {
 
 }
 .col-sm-t {
-  width: 178px;
+  width: 50%;
  }
  .col-sm-tt {
-  width: 391px!important;
+  width: 100%;
  }
 .servicesimg{
   width: 55px;
