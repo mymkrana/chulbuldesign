@@ -376,6 +376,12 @@ img.techimg  {
   width: 50px;
 }
 
+.col-sm-rt:hover {
+     -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+
 @media (max-width: 767px){
   .col-sm-rt{
     width: 33.33%;
