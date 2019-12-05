@@ -375,3 +375,12 @@ section#tech {
 img.techimg  {
   width: 50px;
 }
+
+@media (max-width: 767px){
+  .col-sm-rt{
+    width: 33.33%;
+    text-align: center;
+    transition: 0.5s;
+    padding-bottom: 24px;
+  }
+}
