@@ -274,7 +274,7 @@ section#about {
 }
 
 h5.servicescard {
-  font-size: 24px;
+  font-size: 21px;
   color: #ef473d;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -412,31 +412,27 @@ img.techimg  {
   text-align: center;
   transition: 0.5s;
 }
-.col-sm-ttp {
-  width: 20%;
-  text-align: center;
-  transition: 0.5s;
-}
+
+
 .col-sm-tp:hover {
-  background-color: #e6d8d77a;
+ 
   padding: 5px;
   -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
 }
-.col-sm-ttp:hover {
-  background-color: #e6d8d77a;
-  padding: 5px;
-  -webkit-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        transform: scale(0.9);
-}
+
 .boxwe {
   background: antiquewhite;
   border-radius: 16px;
   padding: 10px;
   margin: 10px;
 }
+i#boxw {
+  font-size: 55px;
+   color: #49499a;
+}
+
 
 @media (max-width: 767px){
   .col-sm-tp {
