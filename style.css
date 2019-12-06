@@ -265,6 +265,13 @@ section#about {
         -ms-transform: scale(0.9);
         transform: scale(0.9);
 }
+.col-sm-tt:hover {
+  background-color: #e6d8d77a;
+  padding: 5px;
+  -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
 
 h5.servicescard {
   font-size: 24px;
@@ -359,7 +366,7 @@ h5.servicescard {
 
 
 /*--------------------------------------------------------------
-                      # Section Tecnology meda End
+                      # Section Tecnology meda Start
 --------------------------------------------------------------*/
 section#tech {
   padding-top: 68px;
@@ -389,4 +396,54 @@ img.techimg  {
     transition: 0.5s;
     padding-bottom: 24px;
   }
+}
+
+
+/*--------------------------------------------------------------
+                      # Section Tecnology meda End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+                      # What We Servee Start
+--------------------------------------------------------------*/
+
+.col-sm-tp {
+  width: 20%;
+  text-align: center;
+  transition: 0.5s;
+}
+.col-sm-ttp {
+  width: 20%;
+  text-align: center;
+  transition: 0.5s;
+}
+.col-sm-tp:hover {
+  background-color: #e6d8d77a;
+  padding: 5px;
+  -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+.col-sm-ttp:hover {
+  background-color: #e6d8d77a;
+  padding: 5px;
+  -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+.boxwe {
+  background: antiquewhite;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 767px){
+  .col-sm-tp {
+    width:50% ;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+
 }
