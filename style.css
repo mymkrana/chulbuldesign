@@ -598,4 +598,190 @@ i#boxw {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
+ /*--------------------------------------------------------------
+                     /* Portfolio Section End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+                     /* Work With US
+--------------------------------------------------------------*/
+
+.col-sm-tpp {
+  width: 25%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+
+.col-sm-tpp:hover {
+ 
+  padding: 5px;
+  -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+
+.boxwe {
+  background: antiquewhite;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+  height: 130px;
+}
+i#boxw {
+  font-size: 55px;
+   color: #49499a;
+}
+
+@media (max-width: 767px){
+
+  .col-sm-tpp {
+    width: 50%;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .boxwe {
+    background: antiquewhite;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    height: 112px;
+}
+  
+}
+samp.htop {
+  font-size: 20px;
+  color: #49499a;
+  font-weight: bold;
+  letter-spacing: 1.9px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+
+#footerr {
+  background-color: transparent;
+    background-image: linear-gradient(10deg, #49499a 0%, #f2295b 68%);
+  padding: 0 0 15px 0;
+  color: #eee;
+  font-size: 14px;
+  margin-top: 42px;
+}
+#footerr .copyrightt {
+  text-align: center;
+  padding-top: 15px;
+}
+samp.htopp {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1.9px;
+}
+
+
+#footer {
+  
+  padding: 0 0 0px 0;
+  color: #eee;
+  font-size: 20px;
+}
+
+#footer .footer-top {
+
+  padding: 30px 0 0px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Poppins", Sans-serif;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Poppins", Sans-serif;
+  color: #ecf5ff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #49499a;
+    font-size: 20px;
+}
+
+
+
+#footer .footer-top .footer-contact p {
+  line-height: 42px;
+}
+
+
+
+
 
