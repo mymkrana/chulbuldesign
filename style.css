@@ -241,7 +241,7 @@ a.btnz {
   font-size: 16px;
   padding-bottom: 53px;
   color: #49499a;
-  width: 50%;
+  width: 90%;
 }
 
 section#about {
@@ -775,7 +775,7 @@ samp.htopp {
     font-size: 20px;
 }
 
-
+ 
 
 #footer .footer-top .footer-contact p {
   line-height: 42px;
@@ -785,3 +785,49 @@ samp.htopp {
 
 
 
+/*--------------------------------------------------------------
+                           About Us
+--------------------------------------------------------------*/
+
+
+h3.bannertext {
+  line-height: 380px;
+  font-size: 55px;
+    color: #49499a;
+}
+
+.bannertop {
+  background-image: url(img/banner/about.svg);
+  margin-top: 6%;
+  height: 350px;
+  text-align: center;
+  line-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px){
+  .bannertop {
+    background-image: url(img/banner/mobile\ about.svg);
+    margin-top: 31%;
+    height: 350px;
+    text-align: center;
+    line-height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 36px;
+  }
+}
+
+
+
+
+.sectionn-headerr p {
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  padding-bottom: 53px;
+  color: #49499a;
+  width: 100%;
+}
