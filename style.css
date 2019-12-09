@@ -315,7 +315,7 @@ h5.servicescard {
   padding-top: 70px;
 }
 .section-drop{
-  font-size: 45px;
+  font-size: 41px;
     color: #ee483d;
     text-align: left;
     font-weight: 500;
@@ -786,7 +786,7 @@ samp.htopp {
 
 
 /*--------------------------------------------------------------
-                           About Us
+                           About Us page
 --------------------------------------------------------------*/
 
 
@@ -831,3 +831,42 @@ h3.bannertext {
   color: #49499a;
   width: 100%;
 }
+
+
+/*--------------------------------------------------------------
+#                   About us Page End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+#                  Ui/UX Design  Page start
+--------------------------------------------------------------*/
+
+
+.bannertopp {
+  background-image: url(img/banner/uiuxbanner.svg);
+  margin-top: 6%;
+  height: 350px;
+  text-align: center;
+  line-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px){
+  .bannertopp {
+    background-image: url(img/banner/uiuxmobileanner.svg);
+    margin-top: 31%;
+    height: 350px;
+    text-align: center;
+    line-height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+#                  Ui/UX Design  Page end
+--------------------------------------------------------------*/
