@@ -955,7 +955,7 @@ h3.bannertext {
   }
 
   .col-sm-tppp {
-    width: 100%;
+    width: 100%!important;
     text-align: center;
     transition: 0.5s;
 }
