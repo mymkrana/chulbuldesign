@@ -870,3 +870,49 @@ h3.bannertext {
 /*--------------------------------------------------------------
 #                  Ui/UX Design  Page end
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#                  Web design  Page start
+--------------------------------------------------------------*/
+
+
+.bannertoppp {
+  background-image: url(img/banner/webdesignbannner.svg);
+  margin-top: 6%;
+  height: 350px;
+  text-align: center;
+  line-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px){
+  .bannertoppp {
+    background-image: url(img/banner/webdeignmobilebanner.svg);
+    margin-top: 31%;
+    height: 350px;
+    text-align: center;
+    line-height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 36px;
+  }
+
+  .boxwee {
+    background: antiquewhite;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    height: 340px!important;
+  }
+}
+
+
+
+.boxwee {
+  background: antiquewhite;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+  height: 292px;
+}
