@@ -903,8 +903,12 @@ h3.bannertext {
     border-radius: 16px;
     padding: 10px;
     margin: 10px;
-    height: 340px!important;
+    height: 242px!important;
+
   }
+  
+
+
 }
 
 
@@ -915,4 +919,50 @@ h3.bannertext {
   padding: 10px;
   margin: 10px;
   height: 292px;
+}
+
+.boxweee {
+  background: antiquewhite;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+  height: 370px;
+}
+
+
+
+.bannertopppp {
+  background-image: url(img/banner/webdevelopment.svg);
+  margin-top: 6%;
+  height: 350px;
+  text-align: center;
+  line-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px){
+  .bannertopppp {
+    background-image: url(img/banner/webdevelmentmobile.svg);
+    margin-top: 31%;
+    height: 350px;
+    text-align: center;
+    line-height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 36px;
+  }
+
+  .col-sm-tppp {
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+}
+
+.col-sm-tppp {
+  width: 25%;
+  text-align: center;
+  transition: 0.5s;
 }
