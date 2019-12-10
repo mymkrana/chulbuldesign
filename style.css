@@ -792,7 +792,7 @@ samp.htopp {
 
 h3.bannertext {
   line-height: 380px;
-  font-size: 55px;
+  font-size: 47px;
     color: #49499a;
 }
 
@@ -903,11 +903,17 @@ h3.bannertext {
     border-radius: 16px;
     padding: 10px;
     margin: 10px;
-    height: 242px!important;
+    height: 212px!important;
 
   }
   
-
+  .boxweee {
+    background: antiquewhite;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    height: 303px!important;
+  }
 
 }
 
