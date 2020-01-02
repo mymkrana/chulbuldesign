@@ -4,7 +4,7 @@
 }
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 12px 0;
   color: #49499a;
 }
 .uptext {
@@ -1027,14 +1027,22 @@ h3.bannertext {
       background-repeat: no-repeat;
       margin-bottom: 36px;
     }
+  }
 
 
-
-
-
-
-
-
-
+  i#brandicon {
+    color: #49499a;
+    font-size: 21px;
+    padding: 5px;
+}
+i#brandicon:hover {
+  color: #ee483d;
+}
+samp.brandtext {
+  color: #ee483d;
+}
+samp.brandtext:hover {
+  color: #49499a;
+}
 
 
